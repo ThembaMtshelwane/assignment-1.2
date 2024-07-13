@@ -1,0 +1,30 @@
+nav {
+  border: 2px solid;
+}
+
+nav ul {
+  border: 2px solid red;
+
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+li {
+  border: 2px solid blue;
+}
+
+nav ul li:first-child {
+  margin-right: auto;
+}
+nav ul li:last-child {
+  margin-left: auto;
+}
+
+nav ul li:nth-child(2) {
+  width: 20%;
+  min-width: 250px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 0px 0px 10%;
+}
