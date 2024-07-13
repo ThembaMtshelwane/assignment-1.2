@@ -1,9 +1,11 @@
 nav {
-  border: 2px solid;
+  /* border: 2px solid; */
+  width: 100%;
+  padding: 0px 50px;
 }
 
 nav ul {
-  border: 2px solid red;
+  /* border: 2px solid red; */
 
   display: flex;
   align-items: center;
@@ -11,7 +13,7 @@ nav ul {
 }
 
 li {
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
 }
 
 nav ul li:first-child {
@@ -22,9 +24,9 @@ nav ul li:last-child {
 }
 
 nav ul li:nth-child(2) {
-  width: 20%;
+  width: 22%;
   min-width: 250px;
   display: flex;
   justify-content: space-between;
-  margin: 0px 0px 0px 10%;
+  margin: 0px 0px 0px 13%;
 }

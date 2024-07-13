@@ -24,12 +24,8 @@
 
 body {
   background-color: var(--backdrop-colour);
-
   font-family: 'Inter', sans-serif;
   font-size: 16px;
-
-  min-width: 320px;
-  min-height: 100vh;
 }
 
 a {
@@ -42,10 +38,21 @@ a {
 h1 {
   font-size: 112px;
   text-align: center;
+  text-transform: uppercase;
+
+  margin-top: 90px;
+  margin-bottom: 20px;
 }
 
 h3 {
   font-size: 32px;
+  text-transform: uppercase;
+}
+
+.bar {
+  background-color: black;
+  width: 130px;
+  height: 5px;
 }
 
 button {
