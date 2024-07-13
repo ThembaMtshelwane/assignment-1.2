@@ -1,7 +1,37 @@
 :root {
+  --primary-colour: black;
+  --secondary-colour: #cdbeec;
+  --backdrop-colour: #f8f8f8;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('./src/assets/fonts/Inter-VariableFont_slnt,wght.ttf')
+    format('truetype');
+  font-weight: 400 900;
+  font-style: normal;
+  font-display: swap;
 }
 
 body {
+  background-color: var(--backdrop-colour);
+
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+
   min-width: 320px;
   min-height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  font-size: 24px;
+}
+
+h1 {
+  font-size: 112px;
+}
+
+h3{
+  font-size: 32px;
 }
