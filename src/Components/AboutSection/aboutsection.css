@@ -1,0 +1,33 @@
+.about-section {
+  display: flex;
+  /* border: 2px solid yellow; */
+
+  height: 100vh;
+  margin-top: 70px;
+}
+
+.about-image-container {
+  background-image: url('../../assets/images/drone8.png');
+  background-position: center;
+  background-size: cover;
+  /* border: 2px solid; */
+  height: 100%;
+  width: 50%;
+}
+
+.about-text-container {
+  background-color: white;
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+}
+
+.about-text {
+  margin-top: 50px;
+  width: 80%;
+  text-align: justify;
+}
