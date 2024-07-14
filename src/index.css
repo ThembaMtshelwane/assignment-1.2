@@ -37,6 +37,7 @@ a {
 
 h1 {
   font-size: 112px;
+  font-weight: 400;
   text-align: center;
   text-transform: uppercase;
 
@@ -46,13 +47,18 @@ h1 {
 
 h3 {
   font-size: 32px;
+  font-weight: 400;
   text-transform: uppercase;
 }
 
 .bar {
   background-color: black;
-  width: 130px;
-  height: 5px;
+}
+
+.sub-header-bar {
+  margin-top: 30px;
+  width: 70px;
+  height: 4px;
 }
 
 button {
