@@ -5,6 +5,7 @@
   padding: 0;
   box-sizing: border-box;
   list-style: none;
+  font-size: 16px;
 }
 
 :root {
@@ -25,7 +26,6 @@
 body {
   background-color: var(--backdrop-colour);
   font-family: 'Inter', sans-serif;
-  font-size: 16px;
 }
 
 a {
@@ -64,4 +64,5 @@ h3 {
 button {
   padding: 10px;
   border: 2px solid var(--primary-colour);
+  background-color: transparent;
 }
