@@ -12,6 +12,14 @@ nav ul {
   padding: 20px;
 }
 
+.logo {
+  font-size: 24px;
+}
+
+.logo-z {
+  color: var(--secondary-colour);
+}
+
 li {
   /* border: 2px solid blue; */
 }

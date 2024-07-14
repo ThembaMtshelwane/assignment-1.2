@@ -5,7 +5,10 @@ const Navbar = () => {
     <nav>
       <ul>
         <li>
-          <a href="#hero">DZ</a>
+          <a href="#hero">
+            <span className="logo logo-d"> D</span>
+            <span className="logo logo-z">Z</span>
+          </a>
         </li>
         <li>
           <a href="#about">about</a>
