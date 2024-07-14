@@ -1,0 +1,18 @@
+footer {
+  background-color: var(--white);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+}
+
+ul {
+  display: flex;
+  /* border: 2px solid; */
+  justify-content: space-between;
+  align-items: center;
+}
+
+li {
+  margin: 20px;
+}

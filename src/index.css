@@ -12,6 +12,7 @@
   --primary-colour: black;
   --secondary-colour: #cdbeec;
   --backdrop-colour: #f8f8f8;
+  --white: white;
 }
 
 @font-face {
